@@ -10,8 +10,8 @@ if (!session_id())
 // Call Facebook API
 
 $facebook = new \Facebook\Facebook([
-  'app_id'      => '315095779570951',
-  'app_secret'     => '6b0b97a0553dc9ac454cf33db6f8531f',
+  'app_id'      => '',
+  'app_secret'     => '',
   'default_graph_version'  => 'v2.10'
 ]);
 
